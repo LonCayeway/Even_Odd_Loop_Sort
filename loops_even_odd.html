@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Loop Output for Even and Odd Numbers</title>
+		<link rel="stylesheet" style type="text/css" href="style.css">
+		
+	</head>
+	<body>
+		<!-- make a loop that will iterate from 0 to 15
+			 for each iteration, check if the current number is odd or even
+			 display a message to the screen: "0 is even"; "1 is odd"; "2 is even"; and so on.  -->
+		
+		<script>
+			
+			var i = 0
+			
+			while (i <= 15){
+				if(i % 2 != 0){
+					console.log(i + " is an odd number");
+				}
+				else if(i % 2 == 0){
+					console.log(i + " is an even number");
+				}
+				i++;
+			}
+			
+		</script>
+		
+	</body>
+</html>
